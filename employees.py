@@ -11,3 +11,5 @@ class Employee:
         """Gives the employee a raise. $5000 by default."""
         self.salary += pay_raise
         return self.salary
+
+#Added message only visible in first_branch!
