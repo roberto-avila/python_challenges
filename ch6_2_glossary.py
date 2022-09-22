@@ -1,5 +1,10 @@
 #-------Use the same glossary from the previous challenge, but loop through the keys and values instead of printing each entry separately.
 
+<<<<<<< HEAD
+=======
+from asyncore import poll
+
+>>>>>>> c42ff4274acba8a1d94d145f80a69b6b6f2f4a09
 
 python_glossary = {
     'variable': 'Symbolic name that is a reference or pointer to an object.',
