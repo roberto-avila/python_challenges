@@ -17,11 +17,7 @@ class Die:
         return randint(1,self.sides)
 
 d6 = Die()
-results = []
-
-for rolled_number in range(10):
-    result = d6.roll_die()
-    results.append(result)
+results = [d6.roll_die() for result in range(10)]
 
 print("10 rolls of a 6-sided die result in:")
 print(results)
