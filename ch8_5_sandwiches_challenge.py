@@ -7,7 +7,7 @@ def make_sandwich(size, *toppings):
     print(f"Making a {size}-inch sandwich with the following toppings:")
     for topping in toppings:
         print(f"- {topping}")
-print(toppings)
+        
 make_sandwich(12, 'ham', 'turkey', 'avocado',)
 make_sandwich(12, 'ham', 'lettuce', 'avocado', 'tomatoes',)
 make_sandwich(12, 'salami', 'cheese',)
