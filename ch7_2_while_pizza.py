@@ -8,8 +8,8 @@ topping = ""
 
 while topping != 'quit':
     topping = input(prompt)
-    if topping != 'quit':
-        print(f"Adding topping: {topping.title()}")
+    #if topping != 'quit':
+    print(f"Adding topping: {topping.title()}")
 
 #-----Movie theater where tickets prices are: under age 3, ticket is free. Ages between 3 and 12, ticket is $10. Ages 12 and above, ticket is $15.
 #Write a loop in which you ask users their age, and then tell them the cost of their movie ticket.
